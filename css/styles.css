@@ -96,6 +96,7 @@ h2 {
 .hero-box-left p {
   color: #baccff;
   line-height: 1.6;
+  margin-bottom: 50px;
 }
 
 /* hero form */
@@ -103,7 +104,8 @@ h2 {
 .hero form {
   background: white;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 5px;
+  height: 100%;
   width: 70%;
   margin: auto;
 }
@@ -123,6 +125,8 @@ form button {
 
 .create-account,
 .google-sign {
+  font-size: 12px;
+  font-weight: bold;
   margin: 10px 0;
   height: 24px;
   line-height: 24px;
@@ -158,6 +162,31 @@ form .sign-in .google-sign a {
   left: 5px;
 }
 
+/* PARTNERS STYLE */
+.partners p {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #a0a8ba;
+  font-size: 16px;
+}
+
+.partners-img {
+  margin: 50px;
+}
+
+.partners-img img {
+  width: 120px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.partners a {
+  color: #086efe;
+}
+
+
+
+
 
 
 
@@ -170,6 +199,12 @@ form .sign-in .google-sign a {
   .nav-links {
     display: block;
   }
+
+  .partners-img div {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
 }
 
 @media screen and (min-width: 1170px) {
