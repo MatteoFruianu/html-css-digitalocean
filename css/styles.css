@@ -17,8 +17,9 @@ h1 {
 }
 
 h2 {
-  color: #f3f5f9;
+  color:#031c4e;
 }
+
 
 /* UTILITIES */
 .section-grey,
@@ -103,7 +104,8 @@ h2 {
 
 .hero form {
   background: white;
-  padding: 15px;
+  padding: 30px;
+  padding-bottom: 60px;
   border-radius: 5px;
   height: 100%;
   width: 70%;
@@ -156,6 +158,15 @@ form .sign-in .google-sign a {
   color: #737373;
 }
 
+form p {
+  padding-top: 20px;
+  color: #1b305d;
+}
+
+form .sign-in .google-sign p a {
+  color:#4692ff;
+}
+
 .google-sign img {
   height: 80%;
   position: absolute;
@@ -183,6 +194,37 @@ form .sign-in .google-sign a {
 .partners a {
   color: #086efe;
 }
+
+/* deploy */
+
+.deploy {
+  color: #5d6b89;
+}
+
+.deploy .title-p {
+  font-size: 18px;
+  padding: 10px 0;
+  padding-bottom: 30px;
+}
+
+.deploy h4 {
+  color: #031c4e;
+  padding: 10px 0;
+}
+
+.deploy ul {
+  border-left: 2px solid #cccccc;
+  border-radius: 1px;
+  padding-left: 15px;
+  font-size: 18px;
+  line-height: 3;
+}
+
+.deploy-tabs .box-dp {
+  padding: 10px;
+}
+
+
 
 
 
