@@ -224,6 +224,34 @@ form .sign-in .google-sign p a {
   padding: 10px;
 }
 
+/* SLIDER DESIGN */
+
+.slider-design img {
+  width: 50%;
+}
+
+.sliding-img i {
+  font-size: 32px;
+  padding: 20px;
+}
+
+.slider-design .build-p {
+  color: #586686;
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+.slider-design .create-p {
+  color: #1d335f;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.slider-design .ellipsis-p {
+    font-size: 10px;
+    color: #006aff;
+}
+
 
 
 
