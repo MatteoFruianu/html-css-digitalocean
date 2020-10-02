@@ -22,6 +22,11 @@ h2 {
 
 
 /* UTILITIES */
+.box {
+  background: lightgreen;
+  border: 1px solid black;
+}
+
 .section-grey,
 .section-white,
 .section-blue {
@@ -247,7 +252,7 @@ form .sign-in .google-sign p a {
   padding: 10px 0;
 }
 
-.slider-design .ellipsis-p {
+.ellipsis-p {
     font-size: 10px;
     color: #006aff;
 }
@@ -265,15 +270,54 @@ form .sign-in .google-sign p a {
   color: #98a1b4;
 }
 
+/* SERVICE SECTION STYLE */
 
+.service h2 {
+  color: white;
+}
 
+/* ROCKER */
 
+.rocker-content {
+  display: inline-block;
+  background: white;
+  width: 30%;
+  height: 90%;
+  padding: 50px 10px;
+  margin: 30px 0;
+}
 
+.rocker img {
+  padding-bottom: 20px;
+}
 
+.rocker p {
+  color: #5c6a88;
+  font-size: 16px;
+}
 
+.rocker .author {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
 
+.rocker i {
+  position: relative;
+  bottom: 100px;
+}
 
+/* GET STARTED */
+.get-started h2 {
+  color: white;
+}
 
+.get-started button {
+  margin-top: 20px;
+  color: #0872ff;
+  font-weight: bold;
+  background: white;
+  padding: 10px;
+}
 
 
 /* MEDIA QUERY  */
