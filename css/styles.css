@@ -49,6 +49,21 @@ h2 {
   font-size: 12px;
 }
 
+.hamburger {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.hamburger .hamb-line {
+  width: 35px;
+ height: 5px;
+ background-color:#3a8aff;
+ margin: 6px 0;
+ border-radius: 5px;
+}
+
 .navbar {
   position: relative;
 }
@@ -229,6 +244,8 @@ form .sign-in .google-sign p a {
 }
 
 /* SLIDER DESIGN */
+
+
 .slider-design img {
   width: 50%;
 }
@@ -455,6 +472,11 @@ font-size: 32px;
   .partners .partners-images ul li {
     display: inline-block;
     width: calc((100% / 3) - 12px);
+}
+
+  .hamburger {
+    display: none;
+  }
 }
 
 
